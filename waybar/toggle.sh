@@ -8,8 +8,8 @@
 #
 
 if [ -f $HOME/.config/ml4w/settings/waybar-disabled ]; then
-    rm $HOME/.config/ml4w/settings/waybar-disabled
+    rm $HOME/.config/hypr/waybar/waybar-disabled
 else
-    touch $HOME/.config/ml4w/settings/waybar-disabled
+    touch $HOME/.config/hypr/waybar/waybar-disabled
 fi
-$HOME/.config/waybar/launch.sh &
+$HOME/.config/hypr/waybar/launch.sh &
