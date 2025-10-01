@@ -21,6 +21,7 @@
 - **Bluetooth**: bluez
 - **Bluetooth manager**: Blueman
 - **Media player controller**: Playerctl
+- **Screenshot support**: flameshot
 
 **Required utilities**
 
@@ -36,6 +37,11 @@ _To use hyprpm:_
 - **_git_**
 - **_gcc_**
 
+_To use flameshot:_
+
+- **_xdg-desktop-portal_**
+- **_xdg-desktop-portal-hyprland_**
+
 **Fonts**
 
 - **otf-font-awesome**
@@ -44,7 +50,7 @@ _To use hyprpm:_
 **Arch installing:**
 
 ```sh
-$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse bluez blueman playerctl jq yay cmake meson cpio pkgconf git gcc otf-font-awesome
+$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse bluez blueman playerctl jq yay cmake meson cpio pkgconf git gcc otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland
 ```
 
 **Install AUR packages:**
