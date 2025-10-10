@@ -73,4 +73,4 @@ Create new Google Drive config with name `google-drive`:
 $ rclone config
 ```
 
-Then create directory to mount and update `/srcipts/drive/mount.sh`.
+Then set up scripts `/srcipts/drive/...`.
