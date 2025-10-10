@@ -42,6 +42,10 @@ _To use flameshot:_
 - **_xdg-desktop-portal_**
 - **_xdg-desktop-portal-hyprland_**
 
+_To mount Google Drive:_
+
+- **_rclone_**
+
 **Fonts**
 
 - **otf-font-awesome**
@@ -50,7 +54,7 @@ _To use flameshot:_
 **Arch installing:**
 
 ```sh
-$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse bluez blueman playerctl jq yay cmake meson cpio pkgconf git gcc otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland
+$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse bluez blueman playerctl jq yay cmake meson cpio pkgconf git gcc rclone otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland
 ```
 
 **Install AUR packages:**
@@ -60,3 +64,13 @@ $ yay -S Material-Icons
 ```
 
 **_\*inspired with [ml4w](https://github.com/mylinuxforwork)_**
+
+**Setting up rclone:**
+
+Create new Google Drive config with name `google-drive`:
+
+```sh
+$ rclone config
+```
+
+Then create directory to mount and update `/srcipts/drive/mount.sh`.
