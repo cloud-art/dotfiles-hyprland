@@ -61,7 +61,7 @@ $ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus way
 **Install AUR packages:**
 
 ```sh
-$ yay -S Material-Icons
+$ yay -S ttf-material-icons-git
 ```
 
 **_\*inspired with [ml4w](https://github.com/mylinuxforwork)_**
