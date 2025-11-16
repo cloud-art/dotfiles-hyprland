@@ -23,6 +23,7 @@
 - **Bluetooth manager**: Blueman
 - **Media player controller**: Playerctl
 - **Screenshot support**: flameshot
+- **Control Theme**: qt6ct, nwg-look, adwaita-dark
 
 **Required utilities**
 
@@ -49,19 +50,27 @@ _To mount Google Drive:_
 
 **Fonts**
 
-- **otf-font-awesome**
-- **material icons**
+- **_ttf-google-fonts-git_**
+
+**Theme**
+
+- **_qt6ct_**
+- **_nwg-look_**
+- **_gnome-themes-extra_**
+- **_gnome-themes-extra-gtk2_**
+- **_adwaita-qt5-git_**
+- **_adwaita-qt6-git_**
 
 **Arch installing:**
 
 ```sh
-$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse pavucontrol bluez blueman playerctl jq yay cmake meson cpio pkgconf git gcc rclone otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland
+$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse pavucontrol bluez blueman playerctl jq cmake meson cpio pkgconf git gcc rclone otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland gnome-themes-extra
 ```
 
 **Install AUR packages:**
 
 ```sh
-$ yay -S ttf-material-icons-git
+$ yay -S ttf-google-fonts-git gnome-themes-extra-gtk2 adwaita-qt5-git adwaita-qt6-git
 ```
 
 **_\*inspired with [ml4w](https://github.com/mylinuxforwork)_**
