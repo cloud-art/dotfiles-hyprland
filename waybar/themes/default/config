@@ -9,6 +9,15 @@
     "modules-center": ["hyprland/window"],
     "modules-right": ["custom/ml4w-welcome","mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
     // Modules configuration
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "", // focused workspace on current monitor 
+            "visible": "", // focused workspace on other monitors
+            "empty": "" // persistent (created by this plugin)
+            },
+        "all-outputs": false // recommended
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,

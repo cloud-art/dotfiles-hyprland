@@ -83,4 +83,14 @@ Create new Google Drive config with name `google-drive`:
 $ rclone config
 ```
 
-Then set up scripts `/srcipts/drive/...`.
+Then set up scripts `/scripts/drive/...`.
+
+**Settings up vscode:**
+
+```sh
+yay -S visual-studio-code-bin sudo pacman gnome-keyring libsecret
+```
+
+Then go into `>Preferences: Configure runtime arguments` and add: `"password-store": "gnome-libsecret"`
+
+Also go into `>User:settings(JSON)` and configure `"http.proxy"`
