@@ -64,7 +64,7 @@ _To mount Google Drive:_
 **Arch installing:**
 
 ```sh
-$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse pavucontrol bluez blueman playerctl jq cmake meson cpio pkgconf git gcc rclone otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland gnome-themes-extra
+$ sudo pacman -S hyprland hypridle hyprlock hyprpaper kitty firefox nautilus waybar swaync wofi brightnessctl wl-clipboard pipewire wireplumber pipewire-pulse pavucontrol bluez blueman playerctl jq cmake meson cpio pkgconf git gcc rclone otf-font-awesome flameshot xdg-desktop-portal xdg-desktop-portal-hyprland gnome-themes-extra bash-completion
 ```
 
 **Install AUR packages:**
